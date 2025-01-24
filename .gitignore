@@ -41,8 +41,6 @@ jspm_packages/
 Thumbs.db
 
 # Build output
-build/
-dist/
 
 # Temporary files
 *.tmp
