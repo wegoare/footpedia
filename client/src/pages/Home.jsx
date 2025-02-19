@@ -45,22 +45,22 @@ export default function Home() {
       {/* <div className='p-3 bg-yellow-200 dark:bg-slate-700'>
         <CallToAction />
       </div> */}
-     <Swiper navigation>
-        {offerListings &&
-          offerListings.length > 0 &&
-          offerListings.map((listing) => (
-            <SwiperSlide>
-              <div
-                style={{
-                  background: `url(${listing.image}) center no-repeat`,
-                  backgroundSize: 'cover',
-                }}
-                className='h-[500px]'
-                key={listing._id}
-              ></div>
-            </SwiperSlide>
-          ))}
-      </Swiper>
+      <Swiper navigation>
+  {offerListings &&
+    offerListings.length > 0 &&
+    offerListings.map((listing) => (
+      <SwiperSlide key={listing._id}>  {/* ✅ Added key here */}
+        <div
+          style={{
+            background: `url(${listing.image}) center no-repeat`,
+            backgroundSize: 'cover',
+          }}
+          className='h-[500px]'
+        ></div>
+      </SwiperSlide>
+    ))}
+</Swiper>
+
 
       <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 py-7'>
         {posts && posts.length > 0 && (
