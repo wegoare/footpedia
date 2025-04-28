@@ -1,6 +1,6 @@
 
 # Project Title
-Welcome to Footpedia! This blog was created by Ashutosh Chaudhary as a personal project to share his thoughts and football knowledge with the world.
+Welcome to Footpedia! This blog was created by Mayank Gurjar as a personal project to share his thoughts and football knowledge with the world.
 
 On this website, you'll find weekly articles and updates of the current happenings in the football world .
 
